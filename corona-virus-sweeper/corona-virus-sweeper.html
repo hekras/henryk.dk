@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8" />
+    <title>Corona Virus Sweeper</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            border: 0;
+            background-color: black;
+        }
+
+        body {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+
+    <div id="OOO" style="display: block;">
+        <div
+            style="position: absolute; left: 10px; top: 50px; width: 1000px; height: 30px; font-size: 26px; color: white;">
+            Select tile size:</div>
+        <div
+            style="position: absolute; left: 10px; top: 200px; width: 1000px; height: 30px; font-size: 26px; color: white;">
+            % virus:</div>
+        <div
+            style="position: absolute; left: 10px; top: 420px; width: 1000px; height: 30px; font-size: 26px; color: white;">
+            Help:</div>
+        <div
+            style="position: absolute; left: 40px; top: 445px; width: 1000px; height: 30px; font-size: 26px; color: white;">
+            Press shift while clicking the mouse to mark a suspected virus.</div>
+        <div
+            style="position: absolute; left: 40px; top: 470px; width: 1000px; height: 30px; font-size: 26px; color: white;">
+            Reload to get back to this page at any time in the game.</div>
+
+        <div style="position: absolute; left: 200px; top: 550px; width: 250px; height: 50px; font-size: 26px; color: black; background-color: cadetblue; border: 3px solid whitesmoke;"
+            onclick="startgamebutton()">
+            <span class="center" style=" color: black; background-color: cadetblue;">
+                Start game</span>
+        </div>
+    </div>
+    <div id="GGG" style="display: none;">
+    </div>
+    <script src="corona-virus-sweeper.js"></script>
+</body>
+
+</html>
